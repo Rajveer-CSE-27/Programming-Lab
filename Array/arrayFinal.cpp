@@ -57,14 +57,5 @@ public:
 
 int main() {
 
-    array<int> arr;
-    for(int i=0; i<6; i++) {
-        arr.insertElement(i+1);
-    }
-
-    arr.searchElement(4);
-    arr.deleteElement(3);
-    arr.printArray();
-
     return 0;
 }
