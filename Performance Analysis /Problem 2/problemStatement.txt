@@ -1,0 +1,20 @@
+Insertion/Deletion from start and end, with probability of insertions ranging from 0,10,20,...,100%,  and probability of start ranging from 0,10,20...,100%
+                [Dynamic Array, leaving double space at start and end]
+
+ Additionally, store the time and space used in data files using /usr/bin/time command.
+     Use bash scripting to process these data files to report in a summary of the same.Z
+     Tools/concepts used: Makefile along with Compile time and Runtime Parameters,
+                                          Random input generation which is reproducible using random seed.
+                                         Take average over several test cases to report performance.
+                                          Output and store time and space using /usr/bin/time by using error stream
+                                          Use bash scripting to collect and summarize data from files.
+     The output of Bash file should be
+     Probab of Start/End  (across)                     0                                        10       20          ...                           100
+     Probab of Ins/Del  (down)
+                    0                               (space+time of List and array)
+                   10
+                   20
+                    .
+                   .
+                   .
+                100
