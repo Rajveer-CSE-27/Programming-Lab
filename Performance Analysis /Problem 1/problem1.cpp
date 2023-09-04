@@ -24,7 +24,7 @@ void performanceAnalysis(string dataStructureType, int insertionProbability, int
 	
 		long start = getTime();
 		for(int i=0; i<iterations; i++) {
-			int randomNumber = rand() % 100; // generate random number between 0 and 9 to insert in array
+			int randomNumber = rand() % 100; // generate random number between 0 and 99 to insert in array
 		
 			if(randomNumber < insertionProbability) {
 				arr.insertElement(randomNumber);
