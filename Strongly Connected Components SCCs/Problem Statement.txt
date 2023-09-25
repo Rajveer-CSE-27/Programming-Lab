@@ -1,0 +1,11 @@
+Problem: Write programs to compute Strongly Connected Components using DFS as described in the following algorithms:
+                (a) https://en.wikipedia.org/wiki/Kosaraju%27s_algorithm
+                (b) https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm
+
+                Use your existing codebase as much as possible to evaluate the above to algorithms on random and real graphs.
+                (a) For Random graphs plot (using GnuPlot) the variation of their average performance (average over several test cases) on random graphs under following settings:
+                1- VarM: Fixed N (nodes, say 200,500,1000) and variable M(edges) varying from 2n to nC2 computed randomly.
+                2- VarN: Fixed Sparsity (say m= 2n, nlog n, n\sqrt{n}, nC2) and variable N (nodes) varying from 100,200,...,1000
+                
+                (b) For Real Graphs, consider the following dataset https://snap.stanford.edu/data/
+                Evaluate the time and space required by your algorithm to compute SCCs of all directed graphs on social networks.
