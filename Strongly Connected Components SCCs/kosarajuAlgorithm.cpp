@@ -87,7 +87,7 @@ int main() {
 
     vector<vector<int>> SCCs = g.findSCCs();
 
-    cout << "Strongly Connected Components:\n";
+    cout << "Strongly Connected Components:" <<endl;
     for (vector<int>& component : SCCs) {
         for (int vertex : component) {
             cout << vertex << " ";
