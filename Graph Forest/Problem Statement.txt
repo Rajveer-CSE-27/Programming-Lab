@@ -1,0 +1,5 @@
+Problem: Write a single code to compute BFS (or DFS) forests of a graph by using Queues (or Stacks).
+                Additionally, write a code for computing DFS using recursion.
+                Plot (using GnuPlot) the variation of their average performance (average over several test cases) on random graphs under following settings:
+                1- VarM: Fixed N (nodes, say 200,500,1000) and variable M(edges) varying from 2n to nC2 computed randomly.
+                2- VarN: Fixed Sparsity (say m= 2n, nlog n, n\sqrt{n}, nC2) and variable N (nodes) varying from 100,200,...,1000
